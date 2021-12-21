@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
         $host = "localhost";
         $dbUsername = "root";
         $dbPassword = "";
-        $dbName = "test";
+        $dbName = "trinetra";
         $conn = new mysqli($host, $dbUsername, $dbPassword, $dbName);
         if ($conn->connect_error) {
             die('Could not connect to the database.');
